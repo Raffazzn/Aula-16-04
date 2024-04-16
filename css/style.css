@@ -1,12 +1,26 @@
 header{
     display: flex;
-    background-color: white;
-    margin: -7px 0 0 0;
+    background-color: rgb(255, 255, 255);
+    margin: -8px 0 0 -8px;
+    width: 2000px;
+    height: 83px;
+    font-family: Roboto;
 }
 
+.titulo{
+    font-size: 12px;
+    padding: 9px 0 0 196px;
+}
 .contato{
     display: flex;
     
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    column-gap: 80px;
+    padding: 15px 0 0 750px;
 }
 
 body {
@@ -14,4 +28,19 @@ background-image: url("/img/bkg.png");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-attachment: fixed;
+}
+
+.nuvem{
+    background-color: #F70058;
+    width: 85px;
+    margin: 0 0 0 50px;
+}
+
+.temp{
+    background-color: #0C0E36;
+    width: 175px;
+}
+
+.nuvem_img{
+    margin: 13px 0 0 17px ;
 }
