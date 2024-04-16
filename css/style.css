@@ -2,7 +2,7 @@ header{
     display: flex;
     background-color: rgb(255, 255, 255);
     margin: -8px 0 0 -8px;
-    width: 2000px;
+    width: 1920px;
     height: 83px;
     font-family: Roboto;
 }
@@ -10,6 +10,7 @@ header{
 .titulo{
     font-size: 12px;
     padding: 9px 0 0 196px;
+    width: 250px;
 }
 .contato{
     display: flex;
@@ -39,8 +40,39 @@ background-attachment: fixed;
 .temp{
     background-color: #0C0E36;
     width: 175px;
+    
 }
 
 .nuvem_img{
     margin: 13px 0 0 17px ;
+}
+
+.c1{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    margin: 19px 0 0 15px;
+}
+
+.h4-1{
+    color: white;
+    font-size: 14px;
+    margin: -16px 0 0 120px;
+}
+.div_temp{
+    background-color: #8A8A9D;
+    width: 150px;
+    height: 1px;
+    margin: 10px 0 0 10px;
+}
+
+.c2{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    margin: 10px 0 0 15px;
+}
+
+.h4-2{
+    color: white;
+    font-size: 14px;
+    margin: -16px 0 0 120px;
 }
